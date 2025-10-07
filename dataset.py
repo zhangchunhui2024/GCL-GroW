@@ -6,6 +6,7 @@ from dgl.data import AmazonCoBuyPhotoDataset, AmazonCoBuyComputerDataset
 from dgl.data import CoauthorCSDataset, CoauthorPhysicsDataset
 from ogb.nodeproppred import DglNodePropPredDataset
 
+
 def load(name):
     if name == 'cora':
         dataset = CoraGraphDataset()
