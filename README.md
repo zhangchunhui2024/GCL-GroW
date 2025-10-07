@@ -10,6 +10,7 @@
 
 ## The main experiments
 
+
 ```
 python main.py --dataname cora --epochs 100 --dfr 0.1 --der 0.6 --lr1 5e-4 --lr2 1e-2 --wd2 1e-4 --num_groups 32 --use_norm True
 python main.py --dataname citeseer --dfr 0.0 --der 0.7 --lr2 0.05 --wd2 0.005 --num_groups 32 --epoch 50 --n_layers 1
