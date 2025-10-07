@@ -10,6 +10,7 @@ from dgl.data import (
 )
 from ogb.nodeproppred import DglNodePropPredDataset
 
+
 def load(name, multimodal=False, feature_type='t5vit', multimodal_path=None):
     """
     Load dataset, supporting both single-modal and multi-modal datasets.
@@ -101,6 +102,7 @@ def load(name, multimodal=False, feature_type='t5vit', multimodal_path=None):
         # print(f"Test Indices (first 5): {test_idx}")
 
         return graph, text_feat, labels, num_class+1, train_idx, val_idx, test_idx
+
 
 
 
