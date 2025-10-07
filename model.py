@@ -6,7 +6,6 @@ import torch
 from bn import *
 
 
-
 class LogReg(nn.Module):
     def __init__(self, hid_dim, out_dim):
         super(LogReg, self).__init__()
